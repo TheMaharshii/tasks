@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="1"></p>
+
+    <script>
+        let num1 = Number(prompt("Enter a Number 1: "));
+        let num2 = Number(prompt("Enter a Number 2: "));
+
+        let op = prompt("Enter a Operator: ");
+
+        switch (op) {
+            case '+': document.write("The Addition is: " + (num1 + num2));
+                break;
+            case '-': document.write("The Subtraction is: " + (num1 - num2));
+                break;
+            case '*': document.write("The Multiplication is: " + (num1 * num2));
+                break;
+            case '/': document.write("The Division is: " + (num1 / num2));
+                break;
+            case '%': document.write("The ramainder is: " + num1 % num2);
+                break;
+            default: document.write("invalid operation")
+        }
+    </script>
+</body>
+
+</html>
